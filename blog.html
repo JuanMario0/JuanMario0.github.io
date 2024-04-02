@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JumiCare</title>
+    <script src="https://kit.fontawesome.com/86e44028d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1.0, maximum-scale=1.0,
+    minimum-scale = 1.0">
+</head>
+<body>
+    <!--Header - menu-->
+    <header>
+
+     <div class="header-content">
+
+        <div class="logo">
+        <h1>Jumi<b>Care</b></h1>
+        </div>
+
+        <div class="menu" id="show-menu">
+            <nav>
+                <ul>
+                    <li><a href=""> <i class="fa-solid fa-house"></i> Inicio</a></li>
+                    <li><a href=""> <i class="fa-solid fa-bolt"></i>¿Quiénes somos?</a></li>
+                    <li class="menu-selected"><a href="blog.html" class="text-menu-selected"> <i class="fa-solid fa-blog"></i>Tienda</a></li>
+                    <li><a href=""> <i class="fa-regular fa-envelope"></i>Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="ctn-icon-search">
+        <i class="fas fa-search" id="icon-search"></i>
+        </div>
+
+     </div>
+      <div id="icon-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+
+    </header>
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+
+    <ul id="box-search">
+        <li><a href=""><i class="fas fa-search"></i>Fragancias</a></li>
+        <li><a href=""><i class="fas fa-search"></i>Protector solar</a></li>
+        <li><a href=""><i class="fas fa-search"></i></a>Proximamente</li>
+    </ul>
+
+    <div id="cover-ctn-search"></div>
+
+
+
+
+    <!--Portada - menu-->
+    <div class="container-all" id="move-content">
+
+    
+    <div class="blog-container-cover">
+        <div class="container-info-cover">
+            <h1>¡Encuentra el producto de tu interés!</h1>
+            <p>Lo que necesitas en tu vida para reafirmar tu belleza</p>
+        </div>
+
+    </div>
+
+    <div class="container-post">
+
+    <input type="radio" id="Todos" name="categories" value="Todos" checked>
+    <input type="radio" id="Cremas" name="categories" value="Cremas">
+    <input type="radio" id="Fragancias" name="categories" value="Fragancias">
+    <input type="radio" id="ProtectorSolar" name="categories" value="ProtectorSolar">
+    <input type="radio" id="Proximamente" name="categories" value="Proximamente">
+
+    <div class="container-category">
+        <label for="Todos">Todos</label>
+        <label for="Proximamente">Cremas</label>
+        <label for="Fragancias">Fragancias</label>
+        <label for="ProtectorSolar">ProtectorSolar</label>
+        <label for="Proximamente">Proximamente</label>
+        
+    </div>
+
+
+     <div class="posts">
+
+        <div class="post" data-category="Crema Proximamente">
+
+            <div class="ctn-img">
+                <img src="./img/CREMA1.jpeg" alt="">
+    
+            </div>
+            <h2>Crema JumiCare</h2>
+            <span>12 de marzo 2024</span>
+            <ul class="ctn-tag">
+                <li>Crema</li>
+                <li>Proximamente</li>
+            </ul>
+            <a href="articulo.html"><button>Leer más</button></a>
+    
+    
+    
+           </div>
+
+       <div class="post" data-category="Fragancias Proximamente">
+
+        <div class="ctn-img">
+            <img src="./img/fragancia1.jpg" alt="">
+
+        </div>
+        <h2>Fragancia JumiCare</h2>
+        <span>30 de abril 2024</span>
+        <ul class="ctn-tag">
+            <li>Fragancias</li>
+            <li>Proximamente</li>
+        </ul>
+        <a href=""><button>Leer más</button></a>
+
+
+
+       </div>
+       <div class="post" data-category="ProtectorSolar Proximamente">
+
+        <div class="ctn-img">
+            <img src="./img/ProtectorJumjCare.jpg" alt="">
+
+        </div>
+        <h2>Protector Solar JumiCare</h2>
+        <span>12 de marzo 2024</span>
+        <ul class="ctn-tag">
+            <li>Cremas</li>
+            <li>Proximamente</li>
+            <li>ProtectorSolar</li>
+        </ul>
+        <a href=""><button>Leer más</button></a>
+
+
+
+       </div>
+       <div class="post" data-category="Filo">
+
+        <div class="ctn-img">
+            <img src="./img/CREMAFONDO.jpeg" alt="">
+
+        </div>
+        <h2>Proximamente</h2>
+        <span>12 de marzo 2024</span>
+        <ul class="ctn-tag">
+            <li>Proximamente</li>
+    
+        </ul>
+        <a href=""><button>Leer más</button></a>
+
+       </div>
+     </div>
+    </div>
+
+
+
+
+    <div class="container-footer">
+        <footer>
+            <div class="logo-footer">
+                <img src="./img/CREMAFONDO.jpeg" alt="">
+            </div>
+            <div class="redes-footer">
+                <a href="#"><i class="fa-brands fa-facebook icon-redes-footer"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
+                <a href="#"><i class="fa-brands fa-google icon-redes-footer"></i></a>
+            </div>
+            <hr>
+            <h4>@JumiCare - Todos los derechos reservados 2024</h4>
+        </footer>
+    </div>
+</div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
